@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Gilroy"; 
+    src: url("./fonts/Gilroy/Gilroy-Black.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 900; 
+} 
+
+@font-face {
+    font-family: "Gilroy"; 
+    src: url("./fonts/Gilroy/Gilroy-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 700; 
+} 
+
+@font-face {
+    font-family: "Gilroy"; 
+    src: url("./fonts/Gilroy/Gilroy-Extrabold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 800; 
+} 
+
+@font-face {
+    font-family: "Gilroy"; 
+    src: url("./fonts/Gilroy/Gilroy-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 300; 
+} 
+
+@font-face {
+    font-family: "Gilroy"; 
+    src: url("./fonts/Gilroy/Gilroy-Medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 500; 
+} 
+
+@font-face {
+    font-family: "Gilroy"; 
+    src: url("./fonts/Gilroy/Gilroy-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 400; 
+} 
+
+@font-face {
+    font-family: "Gilroy"; 
+    src: url("./fonts/Gilroy/Gilroy-Semibold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 600; 
+} 
+
+@font-face {
+    font-family: "Gilroy"; 
+    src: url("./fonts/Gilroy/Gilroy-Thin.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 100; 
+} 
+
+@font-face {
+    font-family: "Gilroy"; 
+    src: url("./fonts/Gilroy/Gilroy-UltraLight.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 200; 
+} 
