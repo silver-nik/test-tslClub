@@ -370,6 +370,7 @@
     z-index: 12;
     justify-content: center;
     letter-spacing: initial !important;
+    color: #111215 !important;
 }
 
 .flag-speed {
