@@ -1131,6 +1131,7 @@
     top: 240px;
     left: 459px;
     right: 459px;
+    -webkit-backdrop-filter: blur(16px);
 }
 
 .banner-side {
