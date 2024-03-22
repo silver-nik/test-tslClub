@@ -1,0 +1,131 @@
+.best-offers {
+    padding-bottom: 60px;
+
+    &__bg {
+        height: 564px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 40px;
+
+        img {
+            &.bg-image {
+                position: absolute;
+                top: 0;
+                left: 0;
+                border-radius: 40px;
+            }
+        }
+
+    }
+
+    &__tag {
+        width: 142px;
+        height: 24px;
+        transform: rotate(-2.00deg);
+        border-radius: 8px;
+        backdrop-filter: blur(24px);
+        background: rgb(241, 71, 71);
+        font-family: 'Gilroy', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        position: absolute;
+        top: 81px;
+        z-index: 10;
+        left: 51%;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        z-index: 10;
+        width: 773px;
+        text-align: center;
+        padding-top: 40px;
+        display: block;
+    }
+
+    &__bottom {
+        padding: 16px;
+        position: relative;
+
+        .catalog-small {
+            padding-bottom: 0;
+        }
+
+        .small-item {
+            margin-right: 6px;
+        }
+
+        .banners-title {
+            margin-bottom: 24px;
+            font-size: 36px;
+            color: #fff;
+        }
+
+        .catalog-top__btn-all, .catalog-top__btn-left, .catalog-top__btn-right {
+            background: none;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+        
+        .catalog-top__btn-left svg path, .catalog-top__btn-right svg path {
+            fill: #fff;
+        }
+
+    }
+
+    .offer__decorative-item {
+        position: absolute;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2px 2px 2px 6px;
+        gap: 4px;
+        border-radius: 8px;
+        backdrop-filter: blur(16px);
+        background: rgba(200, 255, 82, 0.2);
+
+        span {
+            color: rgb(200, 255, 82);
+            font-family: 'Gilroy', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 100%;
+        }
+
+        &.item-1 {
+            transform: rotate(-15.00deg);
+            left: 100px;
+            top: 87px;
+        }
+
+        &.item-2 {
+            transform: rotate(-10.00deg);
+            right: 80px;
+            top: 68px;
+        }
+
+        &.item-3 {
+            transform: rotate(9.91deg);
+            right: 185px;
+            top: 176px;
+        }
+
+    }
+
+}

@@ -1,0 +1,94 @@
+.knowledge-base {
+    padding: 60px 0;
+
+    .knowledge-base__catalog {
+        gap: 12px;
+    }
+
+    .smaller-title .knowledge-base__tag {
+        color: rgb(39, 93, 251);
+        font-family: 'Gilroy', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 8px;
+        backdrop-filter: blur(24px);
+        background: rgb(205, 219, 255);
+        height: 24px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        padding: 4px 8px 4px 4px;
+        transform: rotate(-3.00deg);
+        right: 90px;
+        top: 30px;
+    }
+
+    .knowledge-base__item {
+        width: 341px;
+        height: 341px;
+        border-radius: 40px;
+        background: rgb(241, 244, 252);
+        padding: 24px;
+        font-family: 'Gilroy', sans-serif;
+
+        &.blue__bg-color {
+            color: #fff;
+
+            .knowledge-base__tag-article::before {
+                content: '';
+                display: block;
+                width: 10px;
+                height: 10px;
+                border-radius: 1000px;
+                background: rgb(255, 255, 255);
+            }
+
+        }
+
+    }
+
+    .knowledge-base__tag-article {
+        font-family: 'Gilroy', sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        &::before {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            border-radius: 1000px;
+            background: rgb(17, 18, 21);
+        }        
+
+    }
+
+    &__icon {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+    }
+
+    &__text {
+        position: absolute;
+        top: 180px;
+        left: 24px;
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    &__description {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 8px;
+        display: flex;
+    }
+
+}

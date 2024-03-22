@@ -1,0 +1,32 @@
+
+
+/**
+* Подключение шрифтов локально из папки "./src/fonts"
+*/
+@import 'config/fonts';
+
+@import './global.scss';
+
+@import 'components/main-content.scss';
+@import 'components/header.scss';
+@import 'components/trace.scss';
+@import 'components/main-content-tracker.scss';
+@import 'components/big-catalog.scss';
+@import 'components/banners.scss';
+@import 'components/small-catalog.scss';
+@import 'components/banner-advantages.scss';
+@import 'components/benefits.scss';
+@import 'components/catalog-best-offers.scss';
+@import 'components/banner-slider.scss';
+@import 'components/news-slider.scss';
+@import 'components/catalog-top-cars.scss';
+@import 'components/catalog-knowledge.scss';
+@import 'components/banner-course.scss';
+@import 'components/catalog-new-arrivals.scss';
+@import 'components/banner-feedback.scss';
+@import 'components/catalog-viewed.scss';
+
+@import 'components/catalog-navigation.scss';
+
+
+@import './animations.scss';

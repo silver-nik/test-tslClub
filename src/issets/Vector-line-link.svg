@@ -1,0 +1,20 @@
+<svg width="46.897461" height="72.111328" viewBox="0 0 46.8975 72.1113" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_210_2642_dd" x="0.000000" y="0.000000" width="46.897461" height="72.111328" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feGaussianBlur in="BackgroundImage" stdDeviation="40"/>
+			<feComposite in2="SourceAlpha" operator="in" result="effect_backgroundBlur_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_backgroundBlur_1" result="shape"/>
+		</filter>
+		<linearGradient id="paint_linear_210_2642_0" x1="1.880562" y1="70.778641" x2="36.432968" y2="1.261314" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF" stop-opacity="0.000000"/>
+			<stop offset="0.808483" stop-color="#FFFFFF" stop-opacity="0.101961"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.501961"/>
+		</linearGradient>
+	</defs>
+	<g filter="url(#filter_210_2642_dd)"/>
+	<path id="Vector 1476" d="M1.69873 71.0557L45.1987 1.05566" stroke="url(#paint_linear_210_2642_0)" stroke-opacity="1.000000" stroke-width="4.000000"/>
+</svg>

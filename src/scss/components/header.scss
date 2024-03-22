@@ -1,0 +1,349 @@
+.header {
+
+    height: 48px;
+    position: relative;
+
+    &.open {
+
+       .header-menu {
+            max-height: 560px;
+            transition: max-height .6s ease;
+       }
+       .header-menu__burger-content {
+            opacity: 1;
+            transition: opacity .9s ease;
+            transition-delay: .2s;
+            pointer-events: all;
+        }
+    }
+
+    .header-menu__burger-content {
+        opacity: 0;
+        pointer-events: none
+    }
+
+    .header-menu {
+
+        &__menu {
+            margin: 4px;
+            margin-top: 0;
+            gap: 4px;
+        }
+
+        &__tabs {
+            gap: 4px;
+            flex-direction: column;
+        }
+
+
+        .header__tabs {
+            flex-direction: column;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            padding: 4px;
+
+            
+
+                .header-tab::after {
+                    content: url('../../issets/Vector-header-arrow.svg');
+                    display: block;
+                    width: 16px;
+                    height: 16px;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                }
+
+        }
+
+
+        .header-tab {
+            width: 172px;
+            height: 32px;
+            color: rgb(255, 255, 255);
+            font-family: 'Gilroy', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 100%;
+            display: flex;
+            align-items: center;
+            padding: 9px 10px;
+            border-radius: 20px;
+            justify-content: space-between;
+
+            &.active {
+                background: rgba(255, 255, 255, 0.1);
+            }
+
+        }
+
+        .header__tabs-menu {
+            flex-direction: column;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            padding: 4px;
+        }
+
+        .header-menu__content {
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            column-count: 2;
+            padding: 20px;
+            width: 316px;
+
+            .header__menu-item {
+                font-family: 'Gilroy', sans-serif;
+                break-inside: avoid;
+                margin-bottom: 12px;
+
+                .header__menu-model {
+                    color: rgb(255, 255, 255);
+                    font-size: 16px;
+                    font-weight: 600;
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
+                    margin-bottom: 12px;
+                }
+
+                .header__menu-variations {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+
+                    .menu__variation {
+                        color: rgba(255, 255, 255, 0.5);
+                        font-size: 14px;
+                        font-weight: 400;
+
+                        &:hover {
+                            color: #fff;
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .header-menu__banners {
+            flex-direction: column;
+            gap: 4px;
+
+            .header__menu-banner {
+                width: 192px;
+                height: 168px;
+
+                img {
+                    width: 192px;
+                    height: 168px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: -1;
+                }
+
+                span {
+                    font-family: 'Gilroy', sans-serif;
+                    font-size: 14px;
+                    font-weight: 600;
+                    position: absolute;
+                    bottom: 12px;
+                    left: 12px;
+                }
+
+            }
+
+        }
+
+        .header-menu__links {
+
+            font-family: 'Gilroy', sans-serif;
+            margin: 0 4px;
+
+            .configurator {
+
+                width: 346px;
+                height: 64px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: rgb(255, 255, 255);
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 100%;
+                border-radius: 20px;
+                background: rgb(17, 18, 21);
+                gap: 6px;
+
+                &::before {
+                    content: url('../../issets/setting-4.svg');
+                    display: block;
+                }
+
+            }
+
+            .best-electrocar {
+                width: 346px;
+                height: 64px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: rgb(255, 255, 255);
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 100%;
+                border-radius: 20px;
+                background: rgb(250, 52, 52);
+                gap: 6px;
+                overflow: hidden;
+
+                &::before {
+                    content: url('../../issets/medal-4.svg');
+                    display: block;
+                }
+
+                .link-decorative {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+
+                    .line {
+                        position: absolute;
+                        left: -7px;
+                        top: -3px
+                    }
+
+                }
+
+            }
+
+        }
+
+        .header-menu__slider {
+
+            padding: 16px;
+
+            .header__slider-title {
+                color: rgb(255, 255, 255);
+                font-family: 'Gilroy', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 12px;
+                display: flex;
+            }
+
+            .header__slider-slider {
+                width: 632px;
+                overflow: hidden;
+            }
+
+            .header__slider-wrapper {
+                gap: 8px;
+                display: inline-flex;
+                width: 110%; // имитация слайдера
+            }
+
+            .header__slider-item {
+                border-radius: 1000px;
+                background: rgb(255, 255, 255);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 10px;
+                height: 32px;
+                font-family: 'Gilroy', sans-serif;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 100%;
+                gap: 1px;
+
+                &::before {
+                    content: url('../../issets/fire-icon.svg');
+                    display: block;
+                }
+
+            }
+
+            .header__slider-next {
+                border-radius: 1000px;
+                box-shadow: 0px 12px 32px 0px rgba(43, 70, 139, 0.1);
+                background: rgb(255, 255, 255);
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                svg, path {
+                    fill: rgb(17, 18, 21);
+                }
+
+            }
+        }
+
+    }
+
+    &-menu {
+        width: fit-content;
+        margin: auto;
+        max-height: 48px;
+        z-index: 200;
+        position: relative;
+        border-radius: 20px;
+        backdrop-filter: blur(60px);
+        background: rgba(7, 29, 91, 0.2);
+    }
+
+    &-bar {
+        width: 704px;
+        height: 48px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        // background: rgba(7, 29, 91, 0.15);
+        padding: 8px 14px 8px 4px;
+        justify-content: space-between;
+        position: relative;
+        z-index: 20;
+
+        &__btn {
+            padding: 8px 10px;
+            display: inline-flex;
+            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.10);
+            height: 40px;
+            align-items: center;
+        }
+        
+        &__logo {
+            display: flex;
+            position: relative;
+        }
+        
+        &__logo__tag {
+            color: #F14747;
+            display: flex;
+            width: 133px;
+            height: 19px;
+            transform: rotate(-3deg);
+            padding: 4px 6px 3px 6px;
+            border-radius: 6px;
+            background: #FFCDCD;
+            font-size: 12px;
+            font-weight: 500;
+            position: absolute;
+            top: 23px;
+            right: 19px;
+        }
+
+    }
+    
+}

@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111215;
+    position: relative;
+}
+
+input[type="button"], button, a {
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+a {
+    color: inherit;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+    overflow: hidden;
+}
+
+.container-full-big {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    overflow: hidden;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+
+// positions
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+/* modificators */
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content !important;
+}
+
+.f-column { 
+    flex-direction: column;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+// text modificators
+
+.font-medium {
+    font-weight: 600;
+}
+
+.f-w-500 {
+    font-weight: 500;
+}
+
+.f-w-600 {
+    font-weight: 600;
+}
+
+.text-w-400 {
+    font-weight: 400;
+}
+
+.smaller-title {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.muted {
+    color: rgba(255, 255, 255, 0.50);
+    display: inline-block;
+}
+
+.white-color {
+    color: #fff;
+}
+
+// status modificators
+
+.available__car {
+    color: #41D61C;
+    background: rgba(65, 214, 28, 0.15);
+}
+
+.transit__car {
+    color: #FF7E35;
+    background: rgba(255, 126, 53, 0.15);
+}
+
+// background colors
+
+.white__bg-color {
+    background: #fff !important;
+}
+
+.grey__bg-color {
+    background: #d9d9d9;
+}
+
+.orange__bg-color {
+    background: #F4984A;
+}
+
+.blue__bg-color {
+    background: #275DFB !important;
+}
+
+.red__bg-color {
+    background: #F14747;
+}

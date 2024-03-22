@@ -1,0 +1,132 @@
+.news-slider {
+    padding-bottom: 60px;
+
+    &__item {
+        width: 341px;
+        height: 452px;
+        border-radius: 40px;
+        background: rgb(241, 244, 252);
+        position: relative;
+    }
+
+    &__item-text {
+        padding: 24px 24px 0 24px;
+        color: rgb(17, 18, 21);
+
+        .news__tag {
+            font-size: 14px;
+            font-weight: 700;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            text-transform: uppercase;
+
+            &::before {
+                content: '';
+                display: block;
+                width: 10px;
+                height: 10px;
+                border-radius: 1000px;
+                background: rgb(17, 18, 21);
+            }
+
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 32px;
+        }
+
+    }
+
+    &__substrate {
+        border-radius: 16px 16px 0px 0px;
+        background: rgb(39, 93, 251);
+        width: 160px;
+        height: 60px;
+        padding: 6px 12px 8px 12px;
+        color: rgb(255, 255, 255);
+        font-family: 'Gilroy', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        align-items: flex-start;
+        position: absolute;
+        top: -28px;
+        left: 24px;
+        z-index: -1;
+
+        span {
+            display: flex;
+            align-items: flex-end;
+
+            img {
+                width: 16px;
+                height: 12px;
+                margin-right: 5px;
+            }
+
+            svg {
+                margin-left: 6px;
+            }
+
+        }
+
+    }
+
+    &__item-image {
+        margin-top: 32px;
+        width: 341px;
+        height: 246px;
+        position: absolute;
+        bottom: 0;
+        overflow: hidden;
+        border-radius: 0 0 40px 40px;
+    }
+
+    .news__tag-source {
+        position: absolute;
+        border-radius: 120px 120px 16px 16px;
+        backdrop-filter: blur(24px);
+        background: rgb(255, 255, 255);
+        padding: 9px 10px 9px 10px;
+        text-align: center;
+        bottom: 16px;
+        right: 16px;
+        z-index: 20;
+
+        .tag-source__image {
+            position: relative;
+        }
+
+        .confirmed-tag {
+            position: absolute;
+            border-radius: 1000px;
+            background: rgb(205, 219, 255);
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            right: -2px;
+            top: -2px;
+        }
+
+        .tag-source__logo {
+            width: 48px;
+            height: 48px;
+            border-radius: 1000px;
+            background: black;
+            object-fit: cover;
+        }
+
+        .tag-source__name {
+            font-size: 16px;
+            font-weight: 600;
+            color: rgb(17, 18, 21);
+        }
+
+    }
+
+}
