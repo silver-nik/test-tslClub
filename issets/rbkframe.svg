@@ -1,0 +1,22 @@
+<svg width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip48_10755">
+			<rect id="rbc-seeklogo.com 1" width="40.000000" height="10.000000" transform="translate(4.000000 21.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip48_10766">
+			<rect id="UI icon/check_all/filled" width="16.000000" height="16.000000" transform="translate(32.000000 2.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Frame 1948759991" rx="24.000000" width="48.000000" height="48.000000" transform="translate(0.000000 2.000000)" fill="#111215" fill-opacity="1.000000"/>
+	<rect id="rbc-seeklogo.com 1" width="40.000000" height="10.000000" transform="translate(4.000000 21.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip48_10755)">
+		<path id="Fill-1" d="M4 21L4 30.3171L13.9941 21L4 21Z" fill="#92CFAE" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Fill-2" d="M4.70508 30.9993L14.7227 30.9993L14.7227 21.6602L4.70508 30.9993Z" fill="#2A8288" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Fill-3" d="M20.3439 25.7798C21.4962 25.7798 22.1311 25.2512 22.1311 24.26L22.1311 24.1938C22.1311 23.1365 21.4726 22.718 20.3439 22.718L19.1446 22.718L19.1446 25.7798L20.3439 25.7798ZM16.7695 21L20.4144 21C22.9776 21 24.4356 22.0793 24.4356 24.1938L24.4356 24.26C24.4356 26.3745 22.8836 27.3657 20.485 27.3657L19.1446 27.3657L19.1446 31L16.7695 31L16.7695 21Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Fill-5" d="M29.1373 29.282C30.2896 29.282 30.854 28.7974 30.854 27.8943L30.854 27.8281C30.854 26.925 30.2661 26.4404 29.0668 26.4404L27.7499 26.4404L27.7499 29.26L29.1373 29.26L29.1373 29.282ZM29.2079 31L25.4219 31L25.4219 21L32.1473 21L32.1473 22.7622L27.7499 22.7622L27.7264 24.8547L29.2784 24.8547C31.6535 24.8547 33.088 25.8457 33.088 27.8501L33.088 27.9163C33.088 29.8547 31.7711 31 29.2079 31Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Fill-8" d="M34.8047 21.022L37.2973 21.022L37.2973 25.3171L41.1304 21L43.7876 21L39.4373 25.7356L43.9993 31L41.0833 31L37.2973 26.5066L37.2973 31L34.8047 31L34.8047 21.022Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
