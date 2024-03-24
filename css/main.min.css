@@ -969,7 +969,7 @@ ul, li {
   padding: 4px;
 }
 .header .header-menu .header__tabs .header-tab::after {
-  content: url("../../issets/Vector-header-arrow.svg");
+  content: url("../issets/Vector-header-arrow.svg");
   display: block;
   width: 16px;
   height: 16px;
@@ -1079,7 +1079,7 @@ ul, li {
   gap: 6px;
 }
 .header .header-menu .header-menu__links .configurator::before {
-  content: url("../../issets/setting-4.svg");
+  content: url("../issets/setting-4.svg");
   display: block;
 }
 .header .header-menu .header-menu__links .best-electrocar {
@@ -1098,7 +1098,7 @@ ul, li {
   overflow: hidden;
 }
 .header .header-menu .header-menu__links .best-electrocar::before {
-  content: url("../../issets/medal-4.svg");
+  content: url("../issets/medal-4.svg");
   display: block;
 }
 .header .header-menu .header-menu__links .best-electrocar .link-decorative {
@@ -1146,7 +1146,7 @@ ul, li {
   gap: 1px;
 }
 .header .header-menu .header-menu__slider .header__slider-item::before {
-  content: url("../../issets/fire-icon.svg");
+  content: url("../issets/fire-icon.svg");
   display: block;
 }
 .header .header-menu .header-menu__slider .header__slider-next {
